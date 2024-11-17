@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
 
   spec.summary = "A Ruby library for managing OpenAI chat completions with function calling support"
   spec.description = "Swarm is a Ruby library that provides a simple interface for managing OpenAI chat completions with function calling support. It includes features like streaming responses, context management, and function execution."
-  spec.homepage = "https://github.com/kiyo-e/swarm"
+  spec.homepage = "https://github.com/kiyo-e/swarm-agent"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
 
 spec.metadata["homepage_uri"] = spec.homepage
-spec.metadata["changelog_uri"] = "https://github.com/kiyo-e/swarm/blob/main/CHANGELOG.md"
+spec.metadata["changelog_uri"] = "https://github.com/kiyo-e/swarm-agent/blob/main/CHANGELOG.md"
 
   spec.files = Dir.glob("{lib,exe}/**/*") + %w[LICENSE.txt README.md]
   spec.bindir = "exe"
